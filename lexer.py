@@ -62,3 +62,4 @@ class Lexer:
             number_str += '0'
         
         return Token(TokenType.NUMBER, float(number_str))
+    
