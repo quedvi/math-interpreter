@@ -4,7 +4,7 @@ WHITESPACE = ' \n\t'
 DIGITS = '0123456789'
 
 class Lexer:
-    def __init__(self, text):
+    def __init__(self, text) -> None:
         self.text = iter(text)
         self.advance()
     
