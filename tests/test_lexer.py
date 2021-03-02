@@ -53,3 +53,6 @@ class TestLexter(unittest.TestCase):
             Token(TokenType.MULTIPLY),
             Token(TokenType.NUMBER, 51.0)
         ])
+
+if __name__ == '__main__':
+    unittest.main()

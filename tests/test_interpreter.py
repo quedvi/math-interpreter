@@ -41,3 +41,6 @@ class TestInterpreter(unittest.TestCase):
         )
         result = Interpreter().visit(tree)
         self.assertAlmostEqual(result.value, -2360.08, 2)
+
+if __name__ == '__main__':
+    unittest.main()
